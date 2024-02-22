@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    font-family: Inter;
+}
+
+#header{
+    background-color: #FFCD9E;
+    padding: 15px;
+    padding-left: 5%;
+}
+#upper_part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    width: 60%;
+}
+
+.contact{
+    height: 40px;
+}
+
+.contact input{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    text-align: left;
+    border: 3px solid black; 
+    border-radius: 5px;
+}
+
+.contact button{
+    height: 45px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.pf_img{
+    width: 40%;
+}
+
+#profile{
+    width: 80%;
+}
+
+/*  footer part  */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 5px;
+}
+
+     /* general classes */
+ .white{
+    color: white;
+ }
+
+.centre{
+    /* text-align: center; */
+    padding-left: 1%;
+    margin-top: 20px;
+}
